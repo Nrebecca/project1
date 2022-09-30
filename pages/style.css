@@ -3,6 +3,10 @@ html,body{
     padding: 0px;
 
 }
+
+*{
+    box-sizing: border-box;
+}
 .container{
     background-repeat: no-repeat;
     background-image: url(../images/240_F.jpg);
@@ -11,7 +15,7 @@ html,body{
 .header{
     width: 100%;
     height: 15vh;
-    background-color: rgba(62, 62, 65, 0.459);
+    background-color: rgba(62, 62, 65, 0.932);
     display: flex;
     justify-content: space-between;
     text-decoration: none;
@@ -97,7 +101,7 @@ html,body{
 
 .signup-form-container{
     width: 30%;
-    height: 65vh;
+    height: 69vh;
     margin-left: 30%;
     margin-top: 30px;
     padding: 20px;
@@ -136,7 +140,7 @@ html,body{
 }
 
 .pbox1 input{
-    width: 85%;
+    width: 87%;
     height: 5vh;
     margin-left: 30px;
    
@@ -144,12 +148,12 @@ html,body{
    
 }
 .pbox2 input{
-    width: 85%;
+    width: 87%;
     height: 5vh;
     margin-left: 30px;
 }
 .pbox3 input{
-    width: 85%;
+    width: 87%;
     height: 5vh;
     margin-left: 30px;
 }
@@ -170,11 +174,12 @@ header{
     width: 100%;
     height: 15vh;
     background-color: rgba(128, 128, 128, 0.507);
+    
 }
 
 .containers{
-    background-color: rgba(128, 128, 128, 0);
-   width: 60%;
+    background-color: rgba(128, 128, 128, 0.466);
+   width: 70%;
    height: 63vh;
    margin-left: 5%;
    margin-top: 4%;
@@ -184,7 +189,7 @@ header{
    .card-container{
        background-color: rgb(188, 197, 197);
        height: 63vh;
-       width: 300px;
+       width: 350px;
        /* display: flex; */
        gap: 40px;
        padding: 4px;
@@ -239,3 +244,66 @@ header{
     /* margin-top: 5px; */
     border-radius: 50%;
    }
+
+   form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: right;
+    width: 12%;
+    height: 4%;
+    background: #f1f1f1;
+
+  }
+
+  form.example button {
+    float: right;
+    width: 3%;
+    height: 3%;
+    padding: 10px;
+    background: #879cad;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+    /* margin-left: 30px; */
+  }
+
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  form.example button:hover {
+    background: #0b7ddaab;
+  }
+
+  .search{
+    margin-right: 20%;
+    padding-top: 20px;
+  }
+  .logout{
+    /* background-color: aqua; */
+    width: 15%;
+    float: right;
+    height: 10vh;
+   
+  } 
+  .logout button{
+    width: 100px;
+    height: 5vh;
+    margin-bottom: 40px;
+  }
+
+  .nav{
+    margin-left: 20px;
+    color: black;
+  }
+  .nav h3 a{
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
